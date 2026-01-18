@@ -1,0 +1,63 @@
+.target {
+    text-align: center;
+    position: absolute; 
+    top: 50%;
+    left: 48%;
+    transform: translateY(-100%) translateX(-50%);
+
+
+}
+
+.space{
+    position: absolute; 
+    top: 0%;
+    left: 0%;
+    margin:10px;
+    border-radius:5px;
+    border: 1px solid #cccccc;
+    flex:1;
+
+}
+
+.key{
+    font-size:20px;
+    padding: 6px;
+}
+
+.content {
+  display: none;
+}
+
+#key5 {
+  display: none;
+}
+
+#key1-content{
+    position:absolute;
+    top:63%;
+    line-height:10px;
+}
+#key2-content{
+    position:absolute;
+    top:-1%;
+    left:68%;
+    line-height:10px;
+}
+#key3-content{
+    position:absolute;
+    top:-1%;
+    left:14%;
+    line-height:10px;
+}
+#key4-content{
+    position:absolute;
+    top:59%;
+    left:35%;
+    line-height:10px;
+}
+#key5-content{
+    position:absolute;
+    top:14%;
+    left:1%;
+    line-height:10px;
+}
