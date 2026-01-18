@@ -1,3 +1,6 @@
+///全てはドラッグアンドドロップです。
+
+
 let dragged = null
 
 const keys = document.querySelectorAll(".key");
@@ -39,5 +42,6 @@ target.addEventListener("drop", (event) => {
     
  
 });
+
 
 ///もっと色々仕込みたかった...。
